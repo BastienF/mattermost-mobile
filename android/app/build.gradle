@@ -217,6 +217,7 @@ dependencies {
     implementation project(':react-native-recyclerview-list')
     implementation project(':react-native-webview')
     implementation project(':react-native-gesture-handler')
+    implementation 'com.google.firebase:firebase-core:16.0.1'
 
     // For animated GIF support
     implementation 'com.facebook.fresco:fresco:1.10.0'
@@ -232,3 +233,5 @@ task copyDownloadableDepsToLibs(type: Copy) {
     from configurations.compile
     into 'libs'
 }
+
+apply plugin: 'com.google.gms.google-services'

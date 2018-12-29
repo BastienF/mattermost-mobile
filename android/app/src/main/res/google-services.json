@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "141958615844",
+    "firebase_url": "https://matterfork2.firebaseio.com",
+    "project_id": "matterfork2",
+    "storage_bucket": "matterfork2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141958615844:android:c7debfa7ea3f75a7",
+        "android_client_info": {
+          "package_name": "com.mattermost.rnbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141958615844-mkjj07tdktho1nqiktco95aj5lal3uqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuPtYG3LT36x42g3nepAsQKV_sOnZty8g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
