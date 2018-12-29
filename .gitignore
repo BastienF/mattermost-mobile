@@ -1,3 +1,6 @@
+factory/prod_keystore/slack.moi.ovh
+factory/gradle.properties
+
 assets/override
 dist
 build-ios

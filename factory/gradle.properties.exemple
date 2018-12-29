@@ -1,0 +1,4 @@
+googlePlayServicesVersion=12.0.1
+MATTERMOST_RELEASE_STORE_FILE=/prod_keystore/slack.moi.ovh
+MATTERMOST_RELEASE_KEY_ALIAS=slack.moi.ovh
+MATTERMOST_RELEASE_PASSWORD=<password>

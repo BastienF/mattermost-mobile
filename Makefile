@@ -30,6 +30,8 @@ npm-ci: package.json
 
 	@echo Getting Javascript dependencies
 	@npm ci
+	@npm install --prefix ./node_modules/mattermost-redux/
+	@npm run build --prefix ./node_modules/mattermost-redux/
 
 .podinstall:
 ifeq ($(OS), Darwin)
