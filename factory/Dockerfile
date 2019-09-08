@@ -5,7 +5,7 @@ USER root
 ENV SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" \
     ANDROID_HOME="/usr/local/android-sdk" \
     ANDROID_VERSION=28 \
-    ANDROID_BUILD_TOOLS_VERSION=27.0.3
+    ANDROID_BUILD_TOOLS_VERSION=28.0.3
 
 # Download Android SDK
 RUN mkdir "$ANDROID_HOME" .android \
@@ -48,4 +48,4 @@ RUN npm -g install react-native-cli
 RUN apt-get install -y ruby
 RUN apt-get install -y ruby`ruby -e 'puts RUBY_VERSION[/\d+\.\d+/]'`-dev
 RUN apt-get install -y libz-dev
-RUN gem install bundler
+RUN gem install bundler -v ">=2"
